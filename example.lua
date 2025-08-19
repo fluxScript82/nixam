@@ -3,7 +3,7 @@
     Place both RobloxUILibrary.lua and this script in your Roblox game's ReplicatedStorage or as a ModuleScript.
 ]]
 
-local RobloxUILibrary = require(path.to.RobloxUILibrary)
+local RobloxUILibrary = loadstring(https://raw.githubusercontent.com/fluxScript82/nixam/refs/heads/main/ui.library.lua)
 
 -- Create library and window
 local Library = RobloxUILibrary.new("Dark") -- or "Light"
